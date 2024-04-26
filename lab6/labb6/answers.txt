@@ -1,0 +1,24 @@
+1.
+eventQueue används i destruktorn, “run” och “scheduleEvent” i “Simulation"-filen.
+allTheFish används i destruktorn, “harvestTonnageNow” och “addFish” i  “Simulation"-filen.
+
+2.
+LANDING : 71000 MIN_CATCHABLE_AGE: 499
+
+LANDING : 79999 MIN_CATCHABLE_AGE: 490
+
+LANDING : 85000 MIN_CATCHABLE_AGE: 450
+
+Landing påverkar simulationsresultatet margniellt, eller inte alls.
+
+
+3.
+Fisk skapas i proccesEvent().
+Fisk tas bort då fisken är fångad.
+Event allokeras i minnet i main funktionen.
+Event tas bort i funktionen run89.
+
+Valgrind ger inga errors.
+
+
+Det är oändligt många sekunders(14 sek och oändliga sek) skillnad i simuleringstiden mellan O(1) och O(n) i push_back för MyVector.

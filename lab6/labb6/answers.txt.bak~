@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="24" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Tue Nov 22 16:34:02 2022
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Tue Nov 22 16:34:02 2022
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="1" edit-time="2098" last-saved="1669131242" uid="0e7a2264-6a79-11ed-986c-d424a2bb9d37">
+<version id="1" started="1669131242" uid="176d9f7a-6a7b-11ed-986c-d424a2bb9d37" auto="0" top-xid="8"/>
+</history>
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Tinos; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section xid="3">
+<p style="Normal" xid="4"><c>1.</c></p>
+<p style="Normal" xid="1"><c>eventQueue används i destruktorn, “run” och “scheduleEvent” i “Simulation"-filen.</c></p>
+<p style="Normal" xid="5"><c>allTheFish används i destruktorn, “harvestTonnageNow” och “addFish” i  “Simulation"-filen.</c></p>
+<p style="Normal" xid="6"><c></c></p>
+<p style="Normal" xid="7"><c>2.</c></p>
+<p style="Normal" xid="8"><c>LANDING : 71000 MIN_CATCHABLE_AGE: 499</c></p>
+<p style="Normal" xid="9"><c></c></p>
+<p style="Normal" xid="10"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">LANDING : 79999 MIN_CATCHABLE_AGE: 490</c></p>
+<p style="Normal" xid="11"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="12"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">LANDING : 85000 MIN_CATCHABLE_AGE: 450</c></p>
+<p style="Normal" xid="13"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="14"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fiskbeståndet påverkas av LANDING, CATCHABLE_AGE påverkar minimalt.</c></p>
+<p style="Normal" xid="15"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="17"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">3.</c></p>
+<p style="Normal" xid="23"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">En fisk läggs till i funktionen</c></p>
+<p style="Normal" xid="16"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">En fisk är borttagen när den är fångad.</c></p>
+<p style="Normal" xid="19"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Ett Event allokeras i minnet i main funktionen.</c></p>
+<p style="Normal" xid="22"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Eventet tas bort i funktionen run().’</c></p>
+<p style="Normal" xid="24"><c props="font-family:Tinos; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+</section>
+</abiword>
